@@ -3,6 +3,7 @@
 ## 1-1. list comprehension을 꼭 사용해 주세요
 
 
+
 a = [x for x in range(1, 101) if x%2==0 or x%3==0 or x%5==0]
 
 print("1-1 :  ",a)

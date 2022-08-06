@@ -30,13 +30,22 @@ print(b)
 
 ## 2. set형 함수 (2가지)
 
+a=set()
+a.add(1)
+a.remove(1)
+print(a)
+
 
 
 
 ## 3. dict형 함수?? (4가지)
-#Keys
-#Value
-#items
+c={"a":1,"b":2}
+
+print(c.get("a"))
+print(list(c.values()))
+print(list(c.items()))
+print(list(c.keys()))
+
 
 
 

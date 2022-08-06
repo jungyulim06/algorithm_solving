@@ -3,8 +3,7 @@
 
 ## 1-1. dict 어떻게 만들지??
 
-from multiprocessing.sharedctypes import Value
-from webbrowser import get
+
 
 
 a={}
